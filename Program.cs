@@ -13,6 +13,7 @@ string[] Length(string[] array)
         }
     }
     string[] arr = new string[count];
+
     int index = 0;
     for (int i = 0; i < array.Length; i++)
     {
@@ -33,4 +34,5 @@ Console.Write('[' + string.Join(",", array) + ']');
 string [] arr = Length(array);
 Console.WriteLine();
 Console.Write('[' + string.Join(",", arr) + ']');
+
 
