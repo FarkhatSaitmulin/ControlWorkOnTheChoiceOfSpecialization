@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/* Написать программу, которая из имеющегося массива строк формирует массив из строк, длина которых меньше либо равна 3
+символа.Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.При решении
+не рекомендуется пользоваться коллекциями, лучше обоитись исключительно массивами.  */
+
+Console.Clear();
+Console.WriteLine("Введите предложение или несколько слов");
+string message = Console.ReadLine();
+message.Split(" ") = Console.ReadLine();
+string [] array = " ".Split(" ");
+Console.Write('[' + string.Join(" ", array) + ']');
+
+
