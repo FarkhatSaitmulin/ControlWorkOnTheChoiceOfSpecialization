@@ -35,4 +35,3 @@ string [] arr = Length(array);
 Console.WriteLine();
 Console.Write('[' + string.Join(",", arr) + ']');
 
-
